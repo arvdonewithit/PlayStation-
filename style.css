@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: left;
+    height: 45px;
+    background-color: black;
+    padding:  0 50px;
+   
+  }
+  .logo img{
+    height: 100%;
+    width: 45px;
+    cursor: pointer;
+  }
+  nav ul{margin: auto;
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  li a{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  .container{
+    background-color: #463e3e;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+  }
+  .song-container {
+    background-image: url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+   
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+    color: #00ccff;
+  }
+  .song-container h1 span{
+    color: chartreuse;
+    font-family: 'Poppins', sans-serif;
+  }
+  .song-items{
+    position: relative;
+    height: 28px;
+    display: flex;
+    width:50%;
+    margin-top: 10px;
+    align-items: center;
+    background-color:#a8c7c5;
+    color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  }
+  .song-items img{
+    width: 28px;
+    margin: 0 10px;
+    border-radius: 50%;
+  }
+  .song-items span{
+    margin-left: 10px;
+  }
+  
+  .song-items #playtime{
+    position: absolute;
+    right: 0;
+  }
+  .song-items span i{
+    margin: 10px;
+  }
+  .progress-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+  #gif{
+    position: absolute;
+    width: 10vw;
+    height: 24px;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  #songname{
+    position: absolute;
+    left: 20vw;
+    color: antiquewhite;
+  }
+  #myProgress{
+    position: relative;
+    
+    width: 70vw;
+  }
+  .controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    gap: 25px;
+    background-color: black;
+    padding: 9px 0;
+  }
+  .controls i{
+    font-size: 18px;
+    color: #ffffff;
+    
+  }
+  
